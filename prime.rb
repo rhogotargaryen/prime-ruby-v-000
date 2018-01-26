@@ -12,13 +12,13 @@ def prime?(num)
     return true
   elsif num == 7
     return true
-  elsif 2 % num == 0
+  elsif num % 2 == 0
     return false
-  elsif 3 % num == 0
+  elsif num % 3 == 0
     return false
-  elsif 5 % num == 0
+  elsif num % 5 == 0
     return false
-  elsif 7 % num == 0
+  elsif num % 7 == 0
     return false
   else
     return true
