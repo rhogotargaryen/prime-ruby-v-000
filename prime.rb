@@ -11,7 +11,7 @@ def prime?(num)
   elsif num == 5
     return true
   elsif num == 7
-    return truee
+    return true
   elsif 2 % num == 0
     return false
   elsif 3 % num == 0
