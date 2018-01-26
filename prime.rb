@@ -1,6 +1,10 @@
 # Add  code here!
 def prime?(num)
-  if 2 % num == 0
+  if num === 0
+    return false
+  elsif num == 1
+    return false
+  elsif 2 % num == 0
     return false
   elsif 3 % num == 0
     return false
