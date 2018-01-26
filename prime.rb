@@ -1,12 +1,12 @@
 # Add  code here!
 def prime?(num)
-  if num % 2 == 0
+  if 2 % numbers == 0
     return false
-  elsif num % 3 == 0
+  elsif 3 % num == 0
     return false
-  elsif num % 5 == 0
+  elsif 5 % num == 0
     return false
-  elsif num % 7 == 0
+  elsif 7 % num == 0
     return false
   else
     return true
