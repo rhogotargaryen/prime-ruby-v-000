@@ -20,5 +20,6 @@ def prime?(num)
     return false
   elsif 7 % num == 0
     return false
-  end
+  else
+    return true
 end
