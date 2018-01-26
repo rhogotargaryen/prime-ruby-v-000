@@ -10,4 +10,5 @@ def prime?(num)
     return false
   else
     return true
-    en
+  end
+end
